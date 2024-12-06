@@ -1,0 +1,12 @@
+<suite name="MySuiteListener">
+    <listeners>
+        <listener class-name="my_package.MyListener"> </listener>
+    </listeners>
+
+    <test name="listener-test">
+        <classes>
+            <class name="my_package.TestListenersConcept"> </class>
+        </classes>
+
+    </test>
+</suite>

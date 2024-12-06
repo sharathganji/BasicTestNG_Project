@@ -1,0 +1,12 @@
+<suite name="MySuiteListener">
+    <listeners>
+        <listener class-name="my_package.MyExtentReportManager"> </listener>
+    </listeners>
+
+    <test name="extent_report-test">
+        <classes>
+            <class name="my_package.TestListenersConcept"> </class>
+        </classes>
+
+    </test>
+</suite>
